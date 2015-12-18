@@ -1,0 +1,35 @@
+/**
+ * Top Line Settings Page
+ */
+form table.plugin-options-table {width: 100%; padding: 0;}
+form table.plugin-options-table tr:nth-child(even) {background: #f9f9f9;}
+form table.plugin-options-table tr:nth-child(odd) {background: #FFF;}
+form table.plugin-options-table tr:first-child {width: 35%;}
+form table.plugin-options-table td {vertical-align: middle;}
+form table.plugin-options-table td+td {width: auto;}
+form table.plugin-options-table td > p {margin-top: 0; margin-bottom: 0;}
+form table tr.option-header { background: #0099cc!important; }
+form table tr.option-header th { position: relative!important; }
+form table tr.option-header a#addPropertyBtn { float: right; position: absolute; top: 14px; right: 10px; }
+form table.plugin-options-table tr.option-header > th h3 { color: white!important; }
+form .submit-container { width: 33.3%; float: left; background: white; margin-top: 2px; margin-left: 5px; }
+form .submit-container h3 { background: #0099cc; color: white; padding: 18px; text-align: center; margin: 0; }
+form .submit-container > input {margin: 20px!important;}
+form .options-table-container { width: 60%; float: left; }
+
+/**
+ * MEDIA QUERIES
+ */
+@media (max-width: 850px) {
+ form .submit-container,
+ form .options-table-container { width: 100%; float: none; }
+}
+
+@media (min-width: 740px) {
+  #floorplanContainer .mix { width: 31.33%!important; }
+}
+
+@media (min-width: 400px) {
+  #floorplanContainer .mix { width: 45.55%; }
+  #propertyContainer .mix { width: 100%; }
+}

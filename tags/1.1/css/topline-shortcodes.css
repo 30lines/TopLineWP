@@ -1,0 +1,78 @@
+/**
+ * Default property shortcode listing styles
+ */
+#propertyContainer .mix {
+  display: inline-block;
+  padding: 10px;
+}
+#propertyContainer .mix h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#singlePropertyContent .property-content { padding-top: 20px; padding-bottom: 20px;  }
+#singlePropertyContent .property-floorplans { padding-top: 20px; padding-bottom: 20px; }
+#singlePropertyContent .property-floorplans .filter { margin-right: 10px; font-size: 1rem; }
+
+/**
+ * Default floorplan shortcode styles forfloorplan listings
+ */
+.floorplanFilters > a { border-bottom: 1px solid #0099cc!important; display: inline-block; padding: 5px 10px; background: #0099cc; border: 1px solid #0099cc; color: white; }
+.floorplanFilters > a:hover { background: white; color: #0099cc; }
+#floorplanContainer .mix {
+  display: inline-block;
+  padding: 10px;
+}
+#floorplanContainer .mix h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#floorplanContainer .mix-img > img {
+    width: 200px;
+    height: auto;
+}
+/**
+ *  Single Floorplan CSS
+ */
+.topline-floorplan-info .left,
+.topline-floorplan-info .right {
+  display: inline-block;
+  margin-left: -4px;
+  padding-left: 4px;
+  width: 49%;
+  vertical-align: top;
+}
+.topline-floorplan-info .left {
+  margin-right: 2%;
+}
+.topline-floorplan-info .right,
+#singleFloorplanContent {
+  text-align: center;
+}
+.floorplan-content {
+  margin-bottom: 2rem;
+}
+.need-to-know,
+.floorplan-content {
+  text-align: left;
+}
+#singleFloorplanContent .need-to-know ul {
+    padding-left: 0;
+}
+.need-to-know li {
+    list-style-type: none;
+}
+.need-to-know .double-right {
+  padding-right: 5px;
+  font-size: 1rem;
+}
+
+
+@media (min-width: 740px) {
+  #floorplanContainer .mix { width: 31.33%!important; }
+}
+
+@media (min-width: 400px) {
+  #floorplanContainer .mix { width: 45.55%; }
+  #propertyContainer .mix { width: 100%; }
+}
