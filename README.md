@@ -1,6 +1,4 @@
 ## TopLineWP
-30lines has developed a WordPress plugin to help create both Property Management Company and Property tailored portfolio websites.
-## TopLineWP
 * Contributors: foster30lines, jkraft
 * Requires at least: 4.0
 * Tested up to: 4.4
