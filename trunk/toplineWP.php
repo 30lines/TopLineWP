@@ -2,7 +2,7 @@
 /*
    Plugin Name: TopLine WP
    Plugin URI: http://wordpress.org/extend/plugins/toplineWP/
-   Version: 1.0.0
+   Version: 1.0
    Author: <a href="http://30lines.com/">30lines</a>
    Description: Seemlessly connects real estate agents to their property information for any wordpress site. Import Support: Entrata.
    Text Domain: topline-wp
